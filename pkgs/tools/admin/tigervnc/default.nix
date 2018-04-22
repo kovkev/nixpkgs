@@ -16,8 +16,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "TigerVNC";
     repo = "tigervnc";
-    sha256 = "1y3fn7dwlkm7ilqn8bwyqj3bw7s7clnv7d4jml4wyvfihzz9j90b";
-    rev = "v1.7.90";
+    sha256 = "16h36c0pn9s6c4ywnamim6kmvb1ikxqkh541m76pnnh9fdz6g240";
+    rev = "v1.8.0";
   };
 
   inherit fontDirectories;
